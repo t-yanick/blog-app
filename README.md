@@ -1,24 +1,13 @@
-# README
+# Blog App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Blog App Main Page
+![screenshot 1](./graphics/screenshot.png)
 
-Things you may want to cover:
 
-* Ruby version
+## Author
 
-* System dependencies
+👤 Tazoh Yanick Tazoh
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- GitHub: [@t-yanick](https://github.com/t-yanick)
+- Twitter: [@ElTazoh](https://twitter.com/ElTazoh)
+- Linkedin: [Tazoh Yanick](https://linkedin.com/in/tazoh-yanick-5a978764)
