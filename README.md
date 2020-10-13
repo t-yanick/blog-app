@@ -1,7 +1,7 @@
 # Blog App
 
 ## Blog App Main Page
-![screenshot 1](./graphics/screenshot.png)
+![screenshot 1](./graphics/screenshot-1.png)
 
 
 ## Author
