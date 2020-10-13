@@ -2,9 +2,24 @@
 
 <%= form_for(@article) do |f| %>
     <ul>
-    <% @article.errors.full_messages.each do |error| %>
-      <li><%= error %></li>
-    <% end %>
+    # <% @article.errors.full_messages.each do |error| %>
+    #   <li><%= error %></li>
+    # <% end %>
+
+    <% if @article.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@article.errors.count, "error") %> prohibited
+        this article from being saved:
+      </h2>
+      <ul>
+        <% @article.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
     </ul>
     <p>
       <%= f.label :title %><br />
@@ -18,3 +33,5 @@
       <%= f.submit %>
     </p>
   <% end %>
+
+  <%= link_to "Back to articles list", articles_path %>
